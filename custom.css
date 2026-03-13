@@ -74,6 +74,7 @@ body{
 }
 
 /* Button Styles */
+/* Shared button styles */
 #button,
 .btn {
     background-color: rgb(21, 194, 194);
@@ -91,6 +92,7 @@ body{
     background-color: rgb(17, 160, 160);
 }
 
+/* Form-specific button styles */
 .btn {
     width: 100%;
     font-size: 1.1rem;
