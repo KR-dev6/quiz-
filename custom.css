@@ -73,7 +73,9 @@ body{
     color: #666;
 }
 
-#button {
+/* Button Styles */
+#button,
+.btn {
     background-color: rgb(21, 194, 194);
     color: white;
     border: none;
@@ -84,8 +86,14 @@ body{
     transition: background-color 0.3s;
 }
 
-#button:hover {
+#button:hover,
+.btn:hover {
     background-color: rgb(17, 160, 160);
+}
+
+.btn {
+    width: 100%;
+    font-size: 1.1rem;
 }
 
 /* Section Styles */
@@ -150,22 +158,6 @@ section h3,
 .input-box textarea {
     min-height: 100px;
     resize: vertical;
-}
-
-.btn {
-    width: 100%;
-    padding: 0.8rem;
-    background-color: rgb(21, 194, 194);
-    font-size: 1.1rem;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-.btn:hover {
-    background-color: rgb(17, 160, 160);
 }
 
 /* Footer */
